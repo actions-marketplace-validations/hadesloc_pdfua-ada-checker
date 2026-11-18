@@ -15,6 +15,8 @@ short_description: Free ISO 14289-1 (PDF/UA-1), WCAG 2.1 AA & Section 508 PDF Va
 **Live Free Web Instances (No Account Required, Zero File Retention):**
 - **Full veraPDF 1.30.3 Hosted Checker:** [https://pdfua-ada-checker.onrender.com](https://pdfua-ada-checker.onrender.com)
 - **Instant Browser + veraPDF Checker Widget:** [https://hadesloc.github.io/pdfua-partner-desk/#free-checker](https://hadesloc.github.io/pdfua-partner-desk/#free-checker)
+- **Official Mozilla-Verified Firefox Add-on (`v1.3.0`):** [addons.mozilla.org/addon/pdf-ua-ada-page-scanner](https://addons.mozilla.org/addon/pdf-ua-ada-page-scanner/)
+- **2026 Empirical Benchmark (774 `.gov`/`.edu` PDFs audited):** [hadesloc.github.io/pdfua-partner-desk/benchmark-report-2026/](https://hadesloc.github.io/pdfua-partner-desk/benchmark-report-2026/)
 
 Upload any PDF (up to **20 MB**) — or add `uses: hadesloc/pdfua-ada-checker@v1` to your GitHub Actions workflow — to run a real **veraPDF 1.30.3 (`--flavour ua1`)** ISO 14289-1:2014 machine validation combined with structural inspection for **U.S. DOJ 28 CFR Part 35 (ADA Title II)**, **WCAG 2.1 Level AA**, and **Section 508** compliance.
 
@@ -73,11 +75,13 @@ Each run writes a clause-by-clause Markdown report directly to **GitHub Actions 
 - Maximum file size: **20 MB**.
 - Uploaded PDFs are validated inside an isolated ephemeral temporary directory and **permanently deleted immediately** before the HTTP response is returned (`0` files stored, `0` cloud retention).
 
-### Need 100% Green PDF/UA-1 & PAC 2026 Remediation (Visual Layout Untouched)?
-- **Single-PDF Express Fix ($19 · up to 5 pages · 24h):** [Instant Checkout via Gumroad](https://pdfuapartnerdesk.gumroad.com/l/pdfua-express-5-pages?wanted=true)
-- **Fixed-Price Packages ($65 ≤12p / $195 ≤30p):** [Starter $65](https://pdfuapartnerdesk.gumroad.com/l/pdfua-remediation-12-pages?wanted=true) · [Reports & Tables $195](https://pdfuapartnerdesk.gumroad.com/l/pdfua-remediation-30-pages?wanted=true)
-- **White-Label Agency Storefront & Margin Calculator ($2.00–$6.50/pg):** [PDF/UA Partner Desk](https://hadesloc.github.io/pdfua-partner-desk/)
-- **Request a Free 24-Hour Sample Remediation:** [Google Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSfC50VFJdc55ug-sNpJON59JL9By6yIuRe8qysotQLX1cNtFA/viewform)
-- **Direct Engineering Desk:** `halocrypto101@gmail.com`
+### Local Desktop Studio `v1.6.1` — Free 5-Page Trial & Self-Serve Licenses (Offline, Zero Cloud Uploads)
+- **Free 5-Page Windows Desktop Trial (`v1.6.1` — Auto-Fix, RapidOCR, AcroForms & Delivery ZIP Export):** [Download `PDFAccessibilityStudio-Setup-1.6.1.exe` on GitHub Releases](https://github.com/hadesloc/pdfua-partner-desk/releases/tag/v1.6.1)
+- **Self-Serve Studio Licenses (50% Off w/ `EARLY50`):**
+  - **Studio Solo (`$9.50` w/ `EARLY50` — 2 seats, unlimited pages):** [Checkout on Gumroad](https://pdfuapartnerdesk.gumroad.com/l/pdfua-express-5-pages/EARLY50?wanted=true)
+  - **Studio Agency Batch (`$32.50` w/ `EARLY50` — 3 seats, batch CLI/autopilot):** [Checkout on Gumroad](https://pdfuapartnerdesk.gumroad.com/l/pdfua-remediation-12-pages/EARLY50?wanted=true)
+  - **Studio Commercial (`$97.50` w/ `EARLY50` — 10 seats, full suite + PackProof):** [Checkout on Gumroad](https://pdfuapartnerdesk.gumroad.com/l/pdfua-remediation-30-pages/EARLY50?wanted=true)
+- **Storefront, Free Online Tools & 2026 Benchmark Report:** [hadesloc.github.io/pdfua-partner-desk/](https://hadesloc.github.io/pdfua-partner-desk/)
+- **Enterprise / Pilot Inquiries:** [Google Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSfC50VFJdc55ug-sNpJON59JL9By6yIuRe8qysotQLX1cNtFA/viewform) · `drtheloc@gmail.com`
 
-*Technical accessibility engineering & standards validation tool — not legal advice.*
+*Technical accessibility engineering, PDF/UA-1 software & standards validation — not legal advice.*
