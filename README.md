@@ -66,8 +66,9 @@ Each run writes a clause-by-clause Markdown report directly to **GitHub Actions 
 
 ---
 
-### What This Checker Inspects
-- **ISO 14289-1 (PDF/UA-1) Clauses:** Full rule-by-rule `veraPDF 1.30.3` validation translated into plain-English screen-reader impact.
+### What This Checker & 2-Page Auto-Fix Preview Does
+- **Free Live 2-Page Auto-Fix Preview (`POST /api/preview-fix`):** Upload any PDF (up to **20 MB**) to automatically repair structural PDF/UA-1 issues on the first **2 pages** (`/Lang`, `/ViewerPreferences /DisplayDocTitle`, `/MarkInfo /Marked true`, synced XMP `dc:title` + `pdfuaid:part=1`, `/CIDSet` cleanup, `/Tabs /S`, missing Link `/Contents`, and clean `/StructTreeRoot` + `/Artifact` tagging), verified live Before &rarr; After in **veraPDF 1.30.3** with 1-click PDF download.
+- **Full-Document ISO 14289-1 Audit (`POST /api/check`):** Full rule-by-rule `veraPDF 1.30.3` validation translated into plain-English screen-reader impact.
 - **Document Structure & Metadata:** `/MarkInfo`, `/StructTreeRoot`, `pdfuaid:part=1`, `/Lang`, `/Title`, and `/DisplayDocTitle`.
 - **Images, Tables, Links & AcroForms:** `<Figure>` `/Alt` coverage, `<TH>` `Scope`, hyperlink `/Contents`, fillable widget `/TU` tooltips, `/Tabs /S` focus order, embedded fonts (`CIDSet`), and scanned-image OCR detection.
 
