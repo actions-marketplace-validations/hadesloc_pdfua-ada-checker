@@ -16,6 +16,7 @@ short_description: Free ISO 14289-1 (PDF/UA-1), WCAG 2.1 AA & Section 508 PDF Va
 - **Full veraPDF 1.30.3 Hosted Checker:** [https://pdfua-ada-checker.onrender.com](https://pdfua-ada-checker.onrender.com)
 - **Instant Browser + veraPDF Checker Widget:** [https://hadesloc.github.io/pdfua-partner-desk/#free-checker](https://hadesloc.github.io/pdfua-partner-desk/#free-checker)
 - **Official Mozilla-Verified Firefox Add-on (`v1.3.0`):** [addons.mozilla.org/addon/pdf-ua-ada-page-scanner](https://addons.mozilla.org/addon/pdf-ua-ada-page-scanner/)
+- **Official WordPress.org Plugin (`v1.2.0`):** [wordpress.org/plugins/pdfua-ada-media-scanner](https://wordpress.org/plugins/pdfua-ada-media-scanner/)
 - **2026 Empirical Benchmark (774 `.gov`/`.edu` PDFs audited):** [hadesloc.github.io/pdfua-partner-desk/benchmark-report-2026/](https://hadesloc.github.io/pdfua-partner-desk/benchmark-report-2026/)
 
 Upload any PDF (up to **20 MB**) — or add `uses: hadesloc/pdfua-ada-checker@v1` to your GitHub Actions workflow — to run a real **veraPDF 1.30.3 (`--flavour ua1`)** ISO 14289-1:2014 machine validation combined with structural inspection for **U.S. DOJ 28 CFR Part 35 (ADA Title II)**, **WCAG 2.1 Level AA**, and **Section 508** compliance.
